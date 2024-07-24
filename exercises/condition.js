@@ -23,6 +23,11 @@ idade +65, vc é idoso
 var nome = prompt("Digite eu nome: ")
 var idade = parseInt(prompt("Digite sua idade: "))
 
+if (idade == "") {
+    console.log("Nome não foi digitado.")
+    return 
+}
+
 if (idade < 13) {
     console.log(nome,"a sua idade é",idade,"e você é uma criança.")
 } else if (idade >= 13 && idade <= 17) {
