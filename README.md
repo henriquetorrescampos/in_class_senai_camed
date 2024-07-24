@@ -1,1 +1,1 @@
-# programming_logic_javascript
+# Repositório do estudo de lógica em Javascript
