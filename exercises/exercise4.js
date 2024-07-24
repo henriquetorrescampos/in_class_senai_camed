@@ -3,7 +3,9 @@ const prompt = require("prompt-sync")();
 let peso = parseFloat(prompt("Digite o seu peso: "))
 let altura = parseFloat(prompt("Digite sua altura: "))
 
-let imc = peso / (altura*altura)
+let imc = (peso / (altura*altura))
+imc = Math.round(imc * 100) / 100
+
 
 if (imc < 18.5){
     console.log(imc,"abaixo do peso.")
