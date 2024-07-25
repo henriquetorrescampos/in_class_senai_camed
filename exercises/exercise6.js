@@ -13,4 +13,6 @@ if (operacao == '+') {
     console.log(total = n * m)
 } else if (operacao == '/') {
     console.log(total = n / m)
+} else {
+    console.log("Operação inválida.")
 }
