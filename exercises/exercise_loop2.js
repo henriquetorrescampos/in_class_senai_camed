@@ -4,5 +4,10 @@ const prompt = require("prompt-sync")();
 for (i = 1; i <= 3; i++) {
     let pedido = prompt(`Digite o ${i}º pedido: `)
     console.log(`O seu desejo é ${pedido}`)
-    let again = prompt(`Gostaria de pedir novamente ?`).toUpperCase()
+
+    if (pedido == 'sim') {
+        i = i - 2
+    } else {
+        console.log(pedido)
+    }
 }
