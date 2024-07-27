@@ -3,7 +3,7 @@ function remove_element(array) {
         let random = Math.floor(Math.random() * array.length);
         let name = array[random];
         console.log(`${name} foi removido.`);
-        array.splice(random, 1);
+        array.splice(random, 2);
         console.log(array.length);
     }
     console.log(array);
