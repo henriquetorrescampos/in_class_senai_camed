@@ -3,5 +3,3 @@ function calcularMediaNotas(notaUm, notaDois, notaTres, notaQuatro) {
     return mediaNotas
 }
 
-var resultado = calcularMediaNotas(9, 10, 4, 7)
-console.log(calcularMediaNotas(9, 10, 4, 7))
