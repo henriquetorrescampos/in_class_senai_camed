@@ -1,7 +1,7 @@
 // function in javascript
 
 function myFunciton() {
-    return "Hello, World!"
+  return "Hello, World!";
 }
 
-console.log(myFunciton())
+console.log(myFunciton());
