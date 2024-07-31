@@ -1,0 +1,38 @@
+.form-container {
+  max-width: 600px;
+  background-color: rgb(181, 90, 90);
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.tittle {
+  text-align: center;
+  color: #FFF;
+  font-size: 24px;
+}
+
+.form-class {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+label {
+  color: #FFF;
+  font-size: 18px;
+}
+
+.button-calcular {
+  margin: 0 auto;
+}
+
+input {
+  width: 60px;
+  height: 34px;
+}
+
+p {
+  align-self: center;
+}

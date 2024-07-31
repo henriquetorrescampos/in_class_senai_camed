@@ -4,22 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cacular Perímetro e Área</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="form-container">
-      <h1>Calcular Área</h>
-        <form id="form">
+      <h2 class="tittle">Calcular Área</h2>
+      <form class="form-class" id="form-perimetro-triangulo">
+        <div>
           <label for="ladoA">Lado A</label>
-          <input type="number" id="ladoA">
-
+          <input type="number" id="ladoA" />
+        </div>
+        <div>
           <label for="ladoB">Lado B</label>
-          <input type="number" id="ladoB">
-
+          <input type="number" id="ladoB" />
+        </div>
+        <div>
           <label for="ladoC">Lado C</label>
-          <input type="number" id="ladoC">
-          
-          <button type="submit" class="button-calcular">Calcular perímetro</button>
-        </form>
+          <input type="number" id="ladoC" />
+        </div>
+        <button type="submit" class="button-calcular">
+          Calcular perímetro
+        </button>
+      </form>
+      <p id="result"></p>
     </div>
     <script type="module" src="formules_script.js"></script>
   </body>
