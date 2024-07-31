@@ -12,6 +12,7 @@ function executarForm(event) {
 
   let resultado = calcularPerimetroTriangulo(ladoA, ladoB, ladoC);
 
+  // document.getElementById("form-perimetro-triangulo").style.backgroundColor = "green"; consegue alterar o estilo quando clica
   document.getElementById("result").innerText = `O resultado é ${resultado}.`;
 }
 
