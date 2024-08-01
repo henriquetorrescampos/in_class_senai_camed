@@ -1,0 +1,21 @@
+* {
+  /* todos os elementos iniciam no 0 0 da página */
+  margin: 0;
+  padding: 0;
+}
+
+.texto-azul {
+  color: blue;
+}
+
+.texto-negrito {
+  font-weight: bold;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.btn-black {
+  color: black;
+}
