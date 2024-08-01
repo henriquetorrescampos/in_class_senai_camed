@@ -1,0 +1,17 @@
+.menu {
+  background-color: #fff;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+  background-color: lightcoral;
+  margin: 10px 0;
+}
+
+.w-50 {
+  width: 50vw;
+}
