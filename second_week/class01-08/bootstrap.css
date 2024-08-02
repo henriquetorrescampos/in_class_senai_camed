@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.tittle {
+  display: flex;
+  margin-left: 7%;
+
+}
+
+label {
+  margin-right: 5px;
+  text-align: right;
+}
+
+.m-top {
+  margin-top: 20px;
+}

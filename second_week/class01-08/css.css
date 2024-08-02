@@ -14,4 +14,43 @@
 
 .w-50 {
   width: 50vw;
+  background-color: lightblue;
+  /* px, em, rem, %, vw/he */
+}
+
+.w-50 span {
+  background-color: lightcoral;
+}
+
+.d-inline {
+  display: inline;
+  background-color: lightcoral;
+}
+
+.d-flex {
+  display: flex;
+  /* flex-direction: ; default is row */
+  height: 180px;
+  width: 300px;
+  background-color: lightblue;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  background-color: rgb(48, 42, 165);
+  height: 30px;
+}
+
+.content {
+  background-color: lightcoral;
+  height: 100%;
+}
+.d-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  height: 100px;
+  width: 300px;
+  background-color: lightblue;
 }
