@@ -1,4 +1,4 @@
-function cadastrar_gato(event) {
+function new_cat(event) {
   event.preventDefault();
 
   const name = document.getElementById("catName").value; // value significa salvando valor
@@ -17,7 +17,20 @@ function cadastrar_gato(event) {
     color: color, //chave: valor
   };
 
+  //localStorage > inspect > application
+  localStorage.setItem("cat-profile", JSON.stringify(cat));
+
+  //JSON.parse  transforma JSON into object
+  //JSON.stringify(variable) transform object into JSON
   console.log(cat);
 }
 
-document.getElementById("catForm").addEventListener("submit", cadastrar_gato);
+function change_image(event) {
+  const value_img = event.srcElement.value;
+
+  document.getElementById("catImagePreview").src = value_img;
+}
+
+document.getElementById("catForm").addEventListener("submit", new_cat);
+
+document.getElementById("catImage").addEventListener("input", change_image);
